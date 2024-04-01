@@ -14,3 +14,14 @@ type Capsule struct {
 type Vault struct {
 	Capsules []Capsule `json:"capsule"`
 }
+
+
+const Secret = "secret"
+const Capsule = "capsule"
+const Vault = "vault"
+
+
+type Event struct {
+     Model string `json:"model"`
+     Action string `json:"action"`
+}
